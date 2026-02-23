@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agro Warriors | Our Team</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-brand">
+      <a href="index.html" style="display:flex;align-items:center;gap:12px;text-decoration:none">
+        <div class="nav-logo">
+          <img src="photos/team-logo(no back).png" alt="Agro Warriors Logo">
+          <path d="M12 2C12 2 5 8 5 14C5 17.866 8.134 21 12 21C15.866 21 19 17.866 19 14C19 8 12 2 12 2Z"
+            fill="rgba(12,15,10,0.6)" />
+          <path d="M12 7C12 7 8 11 8 15C8 17.209 9.791 19 12 19C14.209 19 16 17.209 16 15C16 11 12 7 12 7Z"
+            fill="rgba(12,15,10,0.9)" />
+          <line x1="12" y1="19" x2="12" y2="23" stroke="rgba(12,15,10,0.8)" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </div>
+        <span class="nav-name">AGRO WARRIORS</span>
+      </a>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#project">Project</a>
+      <a href="timeline.html" class="">Timeline</a>
+      <a href="gallery.html" class="">Gallery</a>
+      <a href="team.html" class="nav-active">Team</a>
+      <a href="achievements.html" class="">Achievements</a>
+      <a href="index.html#sponsors">Sponsors</a>
+      <a href="index.html#contact" class="btn btn-primary">Contact Us</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" class="mm-link">Home</a>
+    <a href="index.html#about" class="mm-link">About</a>
+    <a href="index.html#project" class="mm-link">Project</a>
+    <a href="timeline.html" class="mm-link">Timeline</a>
+    <a href="gallery.html" class="mm-link">Gallery</a>
+    <a href="team.html" class="mm-link">Team</a>
+    <a href="achievements.html" class="mm-link">Achievements</a>
+    <a href="index.html#sponsors" class="mm-link">Sponsors</a>
+    <a href="index.html#contact" class="mm-link">Contact</a>
+  </div>
+
+  <!-- PAGE BANNER -->
+  <div class="page-banner">
+    <div class="page-banner-glow"></div>
+    <div class="page-banner-grid"></div>
+    <div class="container">
+      <div class="page-breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="crumb-sep">›</span>
+        <span>Our Team</span>
+      </div>
+      <div class="section-eyebrow" style="margin-top:0.75rem">The People</div>
+      <h1 class="section-title" style="font-size:clamp(3rem,7vw,5.5rem)">Meet Our <span class="accent">Team</span></h1>
+      <p style="color:var(--gray);font-size:0.975rem;margin-top:0.75rem;max-width:500px;line-height:1.7">19 passionate
+        engineers, researchers, and designers — united by one mission.</p>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main style="background:var(--dark)">
+    <div class="container" style="padding:60px 0 100px">
+
+      <!-- TABS -->
+      <div class="team-tabs">
+        <button class="team-tab active" data-tsec="current">Current Team (2026)— 19</button>
+        <button class="team-tab" data-tsec="faculty">Faculty Guides — 4</button>
+      </div>
+
+      <!-- ══════════════════════════════════════════
+         TAB 1: CURRENT TEAM — Photos 1(1)–1(11)
+    ══════════════════════════════════════════ -->
+      <div class="team-section active" id="ts-current">
+        <div class="team-grid">
+
+          <!-- 1 -->
+          <div class="team-card">
+            <div class="tc-photo">
+              <img src="photos/BhaveshAhire.jpeg" alt="Kavya Singh" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Bhavesh Ahire</div>
+              <div class="tc-role">Captain</div>
+
+
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#1e1500,#2e2008)">
+              <img src="photos/YashJadhav.jpeg" alt="Rahul Verma" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Yash Jadhav</div>
+              <div class="tc-role">Vice Captain &amp; Manufacturing lead</div>
+
+
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#1e0808,#2e1010)">
+              <img src="photos/VishalThakare.jpeg" alt="Tanya Rao" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Vishal Thakare</div>
+              <div class="tc-role">Finance &amp; Procurement lead</div>
+
+
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#0d1e0a,#142e10)">
+              <img src="photos/RupeshJadhav.jpeg" alt="Dev Patil" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Rupesh Jadhav</div>
+              <div class="tc-role">Design Team Lead</div>
+
+
+            </div>
+          </div>
+
+          <!-- 5 -->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#071820,#0c2430)">
+              <img src="photos/TejasSuryawanshi.jpeg" alt="Ishaan Mishra" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Tejas Suryawanshi</div>
+              <div class="tc-role">Design team</div>
+
+
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#160a20,#201030)">
+              <img src="photos/ShubhamSonawane.jpeg" alt="Lakshmi Acharya" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Shubham Sonawane</div>
+              <div class="tc-role">Design Team</div>
+
+
+            </div>
+          </div>
+
+          <!-- 7 -->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#0d1e0a,#142e10)">
+              <img src="photos/ChandrakantAher.jpeg" alt="Sneha Gupta" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Chandrakant Aher</div>
+              <div class="tc-role">Design Team</div>
+
+
+            </div>
+          </div>
+
+          <!-- 8 -->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#07101e,#0c182c)">
+              <img src="photos/DarshanChavan.jpeg" alt="Harish Jain" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Darshan Chavan</div>
+              <div class="tc-role">Analysis  Team Lead</div>
+
+
+            </div>
+          </div>
+
+          <!-- 9 -->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#1e0808,#2e1010)">
+              <img src="photos/OmChaudhari.jpeg" alt="Ritika Nair" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Om Chaudhari</div>
+              <div class="tc-role">Analysis  Team</div>
+
+            </div>
+          </div>
+
+          <!-- 10 -->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#1e1500,#2e2008)">
+              <img src="photos/MuktaKolhe.jpeg" alt="Mohan Bansal" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Mukta Kolhe</div>
+              <div class="tc-role">Analysis Team</div>
+            </div>
+          </div>
+
+          <!-- 11 -->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#071820,#0c2430)">
+              <img src="photos/SwatiKhamkar.jpeg" alt="Shrutika Dawange" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Swati Khamkar</div>
+              <div class="tc-role">Analysis Team</div>
+
+
+            </div>
+          </div>
+
+          <!-- 12-->
+          <div class="team-card">
+            <div class="tc-photo">
+              <img src="photos/BhaveshKaklij.jpeg" alt="Kavya Singh" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Bhavesh Kaklij</div>
+              <div class="tc-role">Manufacturing Team</div>
+
+
+            </div>
+          </div>
+
+          <!-- 13 -->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#1e1500,#2e2008)">
+              <img src="photos/TejasPatil.jpeg" alt="Rahul Verma" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Tejas Patil</div>
+              <div class="tc-role">Manufacturing Team</div>
+
+
+            </div>
+          </div>
+
+          <!--14-->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#1e0808,#2e1010)">
+              <img src="photos/1 (14).jpeg" alt="Tanya Rao" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Yash Sainkar</div>
+              <div class="tc-role">Manufactuting Team</div>
+
+
+            </div>
+          </div>
+
+          <!-- 15-->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#0d1e0a,#142e10)">
+              <img src="photos/OmBirari.jpeg" alt="Dev Patil" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Om Birari</div>
+              <div class="tc-role">Marketing Team Lead</div>
+
+
+            </div>
+          </div>
+
+          <!-- 16-->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#071820,#0c2430)">
+              <img src="photos/PrasadLondhe.jpeg" alt="Ishaan Mishra" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Prasad Londhe</div>
+              <div class="tc-role">Marketing Team</div>
+
+
+            </div>
+          </div>
+
+          <!-- 17 -->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#160a20,#201030)">
+              <img src="photos/ShivamKanade.jpeg" alt="Lakshmi Acharya" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Shivam Kanade</div>
+              <div class="tc-role">Marketing Team</div>
+
+
+            </div>
+          </div>
+
+          <!-- 18 -->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#0d1e0a,#142e10)">
+              <img src="photos/ShrutikaDawange.jpeg" alt="Sneha Gupta" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Shrutika Dawange</div>
+              <div class="tc-role">Marketing Team</div>
+
+
+            </div>
+          </div>
+
+          <!-- 19-->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#07101e,#0c182c)">
+              <img src="photos/GayatriNikam.jpeg" alt="Harish Jain" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Gayatri Nikam</div>
+              <div class="tc-role">Finance &amp; Procurement</div>
+
+
+            </div>
+          </div>
+
+          <!--20-->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#07101e,#0c182c)">
+              <img src="photos/ChakuliSurayawanshi.jpeg" alt="Harish Jain" onerror="this.remove()" />
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Chakkuli Suryawanshi</div>
+              <div class="tc-role">Finance &amp; Procurement</div>
+
+
+            </div>
+          </div>
+
+
+
+
+
+
+
+        </div>
+      </div>
+
+
+
+      <!-- ══════════════════════════════════════════
+         TAB 3: FACULTY GUIDES — Photos 1(16)–1(19)
+         Using ID-card style too for faculty
+    ══════════════════════════════════════════ -->
+      <div class="team-section" id="ts-faculty">
+        <div class="team-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">
+
+          <!-- 16 -->
+          <div class="team-card" style="border-color:rgba(46,192,90,0.3)">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#0d1e0a,#1a3c14);height:240px">
+              <img src="photos/1(16).jpeg" alt="Dr. Ramesh Iyer" onerror="this.remove()" />
+              <div
+                style="position:absolute;top:10px;right:10px;background:var(--green);color:var(--black);font-size:0.6rem;font-weight:800;padding:3px 8px;border-radius:100px;letter-spacing:0.06em;text-transform:uppercase">
+                Principal Guide</div>
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Dr. Ramesh Iyer</div>
+              <div class="tc-role">Professor, Agriculture Sciences<br />PhD — IIT Bombay</div>
+              <div class="tc-year">2023–Present</div>
+              <div
+                style="font-size:0.75rem;color:var(--gray);font-style:italic;margin-top:0.6rem;line-height:1.5;border-top:1px solid var(--border);padding-top:0.6rem">
+                "Technology is the new seed — plant it wisely."</div>
+            </div>
+          </div>
+
+          <!-- 17 -->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#07101e,#0c182c);height:240px">
+              <img src="photos/1(17).jpeg" alt="Prof. Meena Doshi" onerror="this.remove()" />
+              <div
+                style="position:absolute;top:10px;right:10px;background:rgba(100,130,255,0.9);color:white;font-size:0.6rem;font-weight:800;padding:3px 8px;border-radius:100px;letter-spacing:0.06em;text-transform:uppercase">
+                Co-Guide</div>
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Prof. Meena Doshi</div>
+              <div class="tc-role">Assoc. Professor, Computer Science<br />ML &amp; NLP Specialist</div>
+              <div class="tc-year">2023–24</div>
+            </div>
+          </div>
+
+          <!-- 18 -->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#1e1500,#2e2008);height:240px">
+              <img src="photos/1(18).jpeg" alt="Dr. Suresh Pillai" onerror="this.remove()" />
+              <div
+                style="position:absolute;top:10px;right:10px;background:rgba(232,160,32,0.9);color:#1a0a00;font-size:0.6rem;font-weight:800;padding:3px 8px;border-radius:100px;letter-spacing:0.06em;text-transform:uppercase">
+                Industry Mentor</div>
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Dr. Suresh Pillai</div>
+              <div class="tc-role">Professor, Electronics &amp; IoT<br />Collaborator — Bosch India</div>
+              <div class="tc-year">2024–Present</div>
+            </div>
+          </div>
+
+          <!-- 19 -->
+          <div class="team-card">
+            <div class="tc-photo" style="background:linear-gradient(160deg,#1e0808,#2e1010);height:240px">
+              <img src="photos/1(19).jpeg" alt="Dr. Anita Deshmukh" onerror="this.remove()" />
+              <div
+                style="position:absolute;top:10px;right:10px;background:rgba(100,130,255,0.9);color:white;font-size:0.6rem;font-weight:800;padding:3px 8px;border-radius:100px;letter-spacing:0.06em;text-transform:uppercase">
+                Research Mentor</div>
+            </div>
+            <div class="tc-body">
+              <div class="tc-name">Dr. Anita Deshmukh</div>
+              <div class="tc-role">Asst. Professor, AI &amp; Data Science<br />Computer Vision &amp; Remote Sensing
+              </div>
+              <div class="tc-year">2025–Present</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <div class="divider"></div>
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-brand" style="margin-bottom:1rem">
+            <div class="nav-logo">
+              <img src="photos/team-logo(no back).png" alt="Agro Warriors Logo">
+              <path d="M12 2C12 2 5 8 5 14C5 17.866 8.134 21 12 21C15.866 21 19 17.866 19 14C19 8 12 2 12 2Z"
+                fill="rgba(12,15,10,0.6)" />
+              <path d="M12 7C12 7 8 11 8 15C8 17.209 9.791 19 12 19C14.209 19 16 17.209 16 15C16 11 12 7 12 7Z"
+                fill="rgba(12,15,10,0.9)" />
+              </svg>
+            </div>
+            <span class="nav-name">AGRO WARRIORS</span>
+          </div>
+          <p>A student-led agri-tech team from KBTCOE Nashik, building intelligent solutions for the farmers of
+            tomorrow.</p>
+          <div class="social-links" style="margin-top:1rem">
+            <a class="social-link" href="https://www.linkedin.com/company/team-agro-warriors/" target="_blank">
+              <!-- LinkedIn Outline SVG -->
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="2" width="20" height="20" rx="4" stroke="currentColor" stroke-width="2" />
+                <path d="M7 10V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                <circle cx="7" cy="7" r="1.2" fill="currentColor" />
+                <path d="M11 17V13.5C11 12.1 12 11 13.4 11C14.8 11 15.5 11.9 15.5 13.5V17" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </a>
+
+            <a class="social-link" href="https://www.instagram.com/team_agrowarriors?igsh=MTV4YWNzeXd5bm85OA=="
+              target="_blank">
+              <!-- Instagram SVG -->
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2" />
+                <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2" />
+                <circle cx="17" cy="7" r="1.5" fill="currentColor" />
+              </svg>
+            </a>
+
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About Us</a>
+            <a href="index.html#project">Our Project</a>
+            <a href="timeline.html">Year-Wise Progress</a>
+            <a href="gallery.html">Gallery</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Recognition</h4>
+          <div class="footer-links">
+            <a href="achievements.html">Achievements</a>
+            <a href="index.html#sponsors">Our Sponsors</a>
+
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <div class="footer-links">
+            <a href="index.html#contact">Contact Us</a>
+            <a href="team.html">Meet the Team</a>
+            <a href="index.html#sponsors">Sponsor Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Agro Warriors, KBTCOE Nashik. All rights reserved.</span>
+        <span>Agriculture × Technology · Est. 2025</span>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to Top">↑</button>
+
+
+
+
+  <script>
+  // Tab switching
+  document.querySelectorAll('.team-tab').forEach(tab => {
+    tab.addEventListener('click', function () {
+      // Remove active from all tabs and sections
+      document.querySelectorAll('.team-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.team-section').forEach(s => s.classList.remove('active'));
+
+      // Activate clicked tab
+      this.classList.add('active');
+
+      // Activate corresponding section
+      const target = this.getAttribute('data-tsec');
+      document.getElementById('ts-' + target).classList.add('active');
+    });
+  });
+  // Hamburger menu toggle
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+
+hamburger.addEventListener('click', function () {
+  mobileMenu.classList.toggle('open');
+  hamburger.classList.toggle('open');
+});
+
+// Close menu when a link is clicked
+document.querySelectorAll('.mm-link').forEach(link => {
+  link.addEventListener('click', () => {
+    mobileMenu.classList.remove('open');
+    hamburger.classList.remove('open');
+  });
+});
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Agro Warriors | Year-Wise Progress</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="nav-brand">
+    <a href="index.html" style="display:flex;align-items:center;gap:12px;text-decoration:none">
+      <div class="nav-logo">
+        <img src="photos/team-logo(no back).png" alt="Agro Warriors Logo">
+          <path d="M12 2C12 2 5 8 5 14C5 17.866 8.134 21 12 21C15.866 21 19 17.866 19 14C19 8 12 2 12 2Z" fill="rgba(12,15,10,0.6)"/>
+          <path d="M12 7C12 7 8 11 8 15C8 17.209 9.791 19 12 19C14.209 19 16 17.209 16 15C16 11 12 7 12 7Z" fill="rgba(12,15,10,0.9)"/>
+          <line x1="12" y1="19" x2="12" y2="23" stroke="rgba(12,15,10,0.8)" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <span class="nav-name">AGRO WARRIORS</span>
+    </a>
+  </div>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="index.html#about">About</a>
+    <a href="index.html#project">Project</a>
+    <a href="timeline.html" class="nav-active">Timeline</a>
+    <a href="gallery.html" class="">Gallery</a>
+    <a href="team.html" class="">Team</a>
+    <a href="achievements.html" class="">Achievements</a>
+    <a href="index.html#sponsors">Sponsors</a>
+    <a href="index.html#contact" class="btn btn-primary">Contact Us</a>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html" class="mm-link">Home</a>
+  <a href="index.html#about" class="mm-link">About</a>
+  <a href="index.html#project" class="mm-link">Project</a>
+  <a href="timeline.html" class="mm-link">Timeline</a>
+  <a href="gallery.html" class="mm-link">Gallery</a>
+  <a href="team.html" class="mm-link">Team</a>
+  <a href="achievements.html" class="mm-link">Achievements</a>
+  <a href="index.html#sponsors" class="mm-link">Sponsors</a>
+  <a href="index.html#contact" class="mm-link">Contact</a>
+</div>
+
+<!-- PAGE HERO BANNER -->
+<div class="page-banner">
+  <div class="page-banner-glow"></div>
+  <div class="page-banner-grid"></div>
+  <div class="container">
+    <div class="page-breadcrumb">
+      <a href="index.html">Home</a>
+      <span class="crumb-sep">›</span>
+      <span>Year-Wise Progress</span>
+    </div>
+    <div class="section-eyebrow" style="margin-top:0.75rem">Our Journey</div>
+    <h1 class="section-title" style="font-size:clamp(3rem,7vw,5.5rem)">Year-Wise <span class="accent">Progress</span></h1>
+  </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<main style="background:var(--dark)">
+  <div class="container" style="padding:60px 0 100px">
+    <!-- ═══════════ YEAR-WISE TIMELINE ═══════════ -->
+<section id="timeline">
+  <div class="container">
+    <div class="year-nav">
+      <button class="ytab active" data-year="2025">2025 — Founding</button>
+      <button class="ytab" data-year="2026">2026 — Growth</button>
+      
+    </div>
+
+    <!-- 2025 -->
+    <div class="year-panel active" id="yp-2025">
+      <div class="panel-heading">
+        <div class="panel-year">2025</div>
+        <div class="panel-quote">"Where seeds of innovation were first sown."</div>
+      </div>
+      <div class="panel-content">
+        <div class="panel-cols">
+          <!-- Members -->
+          <div class="pcol">
+            <div class="pcol-head"><div class="pcol-icon icon-members">👥</div><span class="pcol-title">Team Members (6)</span></div>
+            <div class="member-list">
+              <div class="member-row"><div class="av av-g">AK</div><div><div class="mname">Aryan Kumar</div><div class="mrole">Team Lead & Full-Stack Dev</div></div></div>
+              <div class="member-row"><div class="av av-b">PS</div><div><div class="mname">Priya Sharma</div><div class="mrole">IoT Specialist</div></div></div>
+              <div class="member-row"><div class="av av-o">RV</div><div><div class="mname">Rahul Verma</div><div class="mrole">ML Engineer</div></div></div>
+              <div class="member-row"><div class="av av-r">NP</div><div><div class="mname">Neha Patel</div><div class="mrole">UI/UX Designer</div></div></div>
+              <div class="member-row"><div class="av av-p">SM</div><div><div class="mname">Siddharth M.</div><div class="mrole">Backend Developer</div></div></div>
+              <div class="member-row"><div class="av av-c">AJ</div><div><div class="mname">Anjali Joshi</div><div class="mrole">Data Analyst</div></div></div>
+            </div>
+          </div>
+          <!-- Faculty -->
+          <div class="pcol">
+            <div class="pcol-head"><div class="pcol-icon icon-faculty">🎓</div><span class="pcol-title">Faculty Guides</span></div>
+            <div style="padding:0.75rem">
+              <div class="faculty-card principal">
+                <div class="fc-top"><div class="fc-av fc-av-g">DR</div><div><div class="fc-name">Dr. Ramesh Iyer</div><div class="fc-dept">Dept. of Agriculture Sciences</div><div class="fc-badge">Principal Guide</div></div></div>
+                <div class="fc-quote">"Technology is the new seed — plant it wisely."</div>
+              </div>
+              <div class="faculty-card" style="margin-top:0.75rem">
+                <div class="fc-top"><div class="fc-av fc-av-b">PM</div><div><div class="fc-name">Prof. Meena Doshi</div><div class="fc-dept">Dept. of Computer Science</div><div class="fc-badge" style="background:rgba(100,130,255,0.1);border-color:rgba(100,130,255,0.2);color:#8090f0">Co-Guide</div></div></div>
+              </div>
+            </div>
+          </div>
+          <!-- Achievements -->
+          <div class="pcol">
+            <div class="pcol-head"><div class="pcol-icon icon-awards">🏆</div><span class="pcol-title">Achievements (4)</span></div>
+            <div class="award-list">
+              <div class="award-item gold"><div class="award-em">🥇</div><div><div class="award-title">1st Place — AgroTech Hackathon 2023</div><div class="award-desc">State-level. Built smart irrigation dashboard using Arduino + React.</div><div><span class="award-tag" style="background:rgba(232,160,32,0.1);border-color:rgba(232,160,32,0.2);color:var(--amber)">Hackathon</span></div></div></div>
+              <div class="award-item silver"><div class="award-em">🥈</div><div><div class="award-title">Runner-Up — National Smart Farming Summit</div><div class="award-desc">Crop disease detection prototype with 95.2% CNN accuracy.</div><div><span class="award-tag">Conference</span></div></div></div>
+              <div class="award-item green"><div class="award-em">🌱</div><div><div class="award-title">Team Formation & SoilSense Launch</div><div class="award-desc">First product deployed — soil health monitoring app for farmers.</div><div><span class="award-tag">Milestone</span></div></div></div>
+              <div class="award-item green"><div class="award-em">📄</div><div><div class="award-title">Research Paper Published (IJAT)</div><div class="award-desc">"Precision Agriculture using IoT & AI"</div><div><span class="award-tag">Publication</span></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2026 -->
+    <div class="year-panel" id="yp-2026">
+      <div class="panel-heading">
+        <div class="panel-year">2026</div>
+        <div class="panel-quote">"Expanding roots, reaching for the sky."</div>
+      </div>
+      <div class="panel-content">
+        <div class="panel-cols">
+          <div class="pcol">
+            <div class="pcol-head"><div class="pcol-icon icon-members">👥</div><span class="pcol-title">Team Members (8)</span></div>
+            <div class="member-list">
+              <div class="member-row"><div class="av av-g">AK</div><div><div class="mname">Aryan Kumar</div><div class="mrole">Team Lead (Continued)</div></div></div>
+              <div class="member-row"><div class="av av-o">RV</div><div><div class="mname">Rahul Verma</div><div class="mrole">AI/ML Lead</div></div></div>
+              <div class="member-row"><div class="av av-b">KS</div><div><div class="mname">Kavya Singh</div><div class="mrole">Cloud Architect</div></div></div>
+              <div class="member-row"><div class="av av-c">MB</div><div><div class="mname">Mohan Bansal</div><div class="mrole">Embedded Systems</div></div></div>
+              <div class="member-row"><div class="av av-r">TR</div><div><div class="mname">Tanya Rao</div><div class="mrole">Product Manager</div></div></div>
+              <div class="member-row"><div class="av av-p">NP</div><div><div class="mname">Neha Patel</div><div class="mrole">Design Lead</div></div></div>
+              <div class="member-row"><div class="av av-g">VK</div><div><div class="mname">Vikas Kulkarni</div><div class="mrole">Database Engineer</div></div></div>
+              <div class="member-row"><div class="av av-g">AK</div><div><div class="mname">Aryan Kumar</div><div class="mrole">Team Lead (Continued)</div></div></div>
+              <div class="member-row"><div class="av av-o">RV</div><div><div class="mname">Rahul Verma</div><div class="mrole">AI/ML Lead</div></div></div>
+              <div class="member-row"><div class="av av-b">KS</div><div><div class="mname">Kavya Singh</div><div class="mrole">Cloud Architect</div></div></div>
+              <div class="member-row"><div class="av av-c">MB</div><div><div class="mname">Mohan Bansal</div><div class="mrole">Embedded Systems</div></div></div>
+              <div class="member-row"><div class="av av-r">TR</div><div><div class="mname">Tanya Rao</div><div class="mrole">Product Manager</div></div></div>
+              <div class="member-row"><div class="av av-p">NP</div><div><div class="mname">Neha Patel</div><div class="mrole">Design Lead</div></div></div>
+              <div class="member-row"><div class="av av-g">VK</div><div><div class="mname">Vikas Kulkarni</div><div class="mrole">Database Engineer</div></div></div>
+              <div class="member-row"><div class="av av-r">TR</div><div><div class="mname">Tanya Rao</div><div class="mrole">Product Manager</div></div></div>
+              <div class="member-row"><div class="av av-g">AK</div><div><div class="mname">Aryan Kumar</div><div class="mrole">Team Lead (Continued)</div></div></div>
+              <div class="member-row"><div class="av av-o">RV</div><div><div class="mname">Rahul Verma</div><div class="mrole">AI/ML Lead</div></div></div>
+              <div class="member-row"><div class="av av-b">KS</div><div><div class="mname">Kavya Singh</div><div class="mrole">Cloud Architect</div></div></div>
+              <div class="member-row"><div class="av av-c">MB</div><div><div class="mname">Mohan Bansal</div><div class="mrole">Embedded Systems</div></div></div>
+              <div class="member-row"><div class="av av-r">TR</div><div><div class="mname">Tanya Rao</div><div class="mrole">Product Manager</div></div></div>
+            </div>
+          </div>
+          <div class="pcol">
+            <div class="pcol-head"><div class="pcol-icon icon-faculty">🎓</div><span class="pcol-title">Faculty Guides</span></div>
+            <div style="padding:0.75rem">
+              <div class="faculty-card principal">
+                <div class="fc-top"><div class="fc-av fc-av-g">DR</div><div><div class="fc-name">Dr. Ramesh Iyer</div><div class="fc-dept">Dept. of Agriculture Sciences</div><div class="fc-badge">Principal Guide</div></div></div>
+                <div class="fc-quote">"2024 showed us what precision agriculture truly means."</div>
+              </div>
+              <div class="faculty-card" style="margin-top:0.75rem">
+                <div class="fc-top"><div class="fc-av fc-av-b">SP</div><div><div class="fc-name">Dr. Suresh Pillai</div><div class="fc-dept">Dept. of Electronics & IoT</div><div class="fc-badge" style="background:rgba(232,160,32,0.1);border-color:rgba(232,160,32,0.2);color:var(--amber)">Industry Mentor</div></div></div>
+              </div>
+              <div class="faculty-card" style="margin-top:0.75rem">
+                <div class="fc-top"><div class="fc-av fc-av-b">PM</div><div><div class="fc-name">Prof. Meena Doshi</div><div class="fc-dept">Dept. of Computer Science</div><div class="fc-badge" style="background:rgba(100,130,255,0.1);border-color:rgba(100,130,255,0.2);color:#8090f0">Co-Guide</div></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="pcol">
+            <div class="pcol-head"><div class="pcol-icon icon-awards">🏆</div><span class="pcol-title">Achievements (6)</span></div>
+            <div class="award-list">
+              <div class="award-item gold"><div class="award-em">🏆</div><div><div class="award-title">National Winner — SIH 2024</div><div class="award-desc">Won ₹1,00,000 prize. CropShield — AI pest early-warning system.</div><div><span class="award-tag" style="background:rgba(232,160,32,0.1);border-color:rgba(232,160,32,0.2);color:var(--amber)">National</span></div></div></div>
+              <div class="award-item gold"><div class="award-em">🥇</div><div><div class="award-title">1st — IEEE AgriRobotics Challenge</div><div class="award-desc">Autonomous weed-detection drone prototype.</div><div><span class="award-tag">IEEE</span></div></div></div>
+              <div class="award-item silver"><div class="award-em">🥈</div><div><div class="award-title">Runner-Up — Google For India Challenge</div><div class="award-desc">Multilingual farmer advisory app. 1,200+ entries nationwide.</div><div><span class="award-tag">Google</span></div></div></div>
+              <div class="award-item green"><div class="award-em">🤝</div><div><div class="award-title">MoU with State Agriculture Board</div><div class="award-desc">SoilSense v2.0 deployed across 50 pilot farms.</div><div><span class="award-tag">Partnership</span></div></div></div>
+              <div class="award-item green"><div class="award-em">🎤</div><div><div class="award-title">Invited Speaker — AgriTech India Summit</div><div class="award-desc">500+ industry delegates, Pune.</div><div><span class="award-tag">Speaking</span></div></div></div>
+              <div class="award-item green"><div class="award-em">📱</div><div><div class="award-title">KisaanBot Launched</div><div class="award-desc">WhatsApp AI advisor. 2,000+ farmers reached.</div><div><span class="award-tag">Product</span></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+   
+    
+  </div>
+</main>
+
+<!-- FOOTER -->
+<div class="divider"></div>
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-brand" style="margin-bottom:1rem">
+          <div class="nav-logo"><img src="photos/team-logo(no back).png" alt="Agro Warriors Logo"></div>
+          <span class="nav-name">AGRO WARRIORS</span>
+        </div>
+        <p>A student-led agri-tech team from KBTCOE Nashik, building intelligent solutions for the farmers of tomorrow.</p>
+        <div class="social-links" style="margin-top:1rem">
+          
+  <a class="social-link" href="https://www.linkedin.com/company/team-agro-warriors/" target="_blank">
+  <!-- LinkedIn Outline SVG -->
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+    <rect x="2" y="2" width="20" height="20" rx="4" stroke="currentColor" stroke-width="2"/>
+    <path d="M7 10V17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="7" cy="7" r="1.2" fill="currentColor"/>
+    <path d="M11 17V13.5C11 12.1 12 11 13.4 11C14.8 11 15.5 11.9 15.5 13.5V17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  </svg>
+</a>
+
+<a class="social-link" href="https://www.instagram.com/team_agrowarriors?igsh=MTV4YWNzeXd5bm85OA==" target="_blank">
+  <!-- Instagram SVG -->
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+    <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/>
+    <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/>
+    <circle cx="17" cy="7" r="1.5" fill="currentColor"/>
+  </svg>
+</a>
+          
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="index.html#about">About Us</a>
+          <a href="index.html#project">Our Project</a>
+          <a href="timeline.html">Year-Wise Progress</a>
+          <a href="gallery.html">Gallery</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Recognition</h4>
+        <div class="footer-links">
+          <a href="achievements.html">Achievements</a>
+          <a href="index.html#sponsors">Our Sponsors</a>
+         
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <div class="footer-links">
+          <a href="index.html#contact">Contact Us</a>
+          <a href="team.html">Meet the Team</a>
+          <a href="index.html#sponsors">Sponsor Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Agro Warriors, KBTCOE Nashik. All rights reserved.</span>
+      <span>Agriculture × Technology · Est. 2025</span>
+    </div>
+  </div>
+</footer>
+
+<button id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to Top">↑</button>
+<script src="script.js"></script>
+<canvas id="particle-canvas"></canvas>
+
+  <style>
+#particle-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #08140c; /* your dark green */
+}
+</style>
+
+<script>
+const canvas = document.getElementById("particle-canvas");
+const ctx = canvas.getContext("2d");
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+let mouse = { x: canvas.width / 2, y: canvas.height / 2 };
+
+window.addEventListener("mousemove", (e) => {
+  mouse.x = e.clientX;
+  mouse.y = e.clientY;
+});
+
+window.addEventListener("resize", () => {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+});
+
+class Particle {
+  constructor() {
+    this.baseX = Math.random() * canvas.width;
+    this.baseY = Math.random() * canvas.height;
+    this.x = this.baseX;
+    this.y = this.baseY;
+    this.size = Math.random() * 2 + 1;
+    this.depth = Math.random() * 0.05 + 0.02; // parallax strength
+  }
+
+  update() {
+    // Parallax shift based on mouse position
+    let dx = (mouse.x - canvas.width / 2) * this.depth;
+    let dy = (mouse.y - canvas.height / 2) * this.depth;
+
+    this.x = this.baseX + dx;
+    this.y = this.baseY + dy;
+  }
+
+  draw() {
+    ctx.fillStyle = "rgba(46,192,90,0.6)";
+    ctx.beginPath();
+    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+    ctx.fill();
+  }
+}
+
+let particles = [];
+
+function init() {
+  particles = [];
+  for (let i = 0; i < 200; i++) {
+    particles.push(new Particle());
+  }
+}
+
+function animate() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  particles.forEach(p => {
+    p.update();
+    p.draw();
+  });
+
+  requestAnimationFrame(animate);
+}
+
+init();
+animate();
+</script>
+</body>
+</html>

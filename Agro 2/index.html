@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agro Warriors</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ═══════════ NAVBAR ═══════════ -->
+  <nav id="navbar">
+    <div class="nav-brand">
+      <div class="nav-logo">
+        <img src="photos/team-logo(no back).png" alt="Agro Warriors Logo">
+        <path d="M12 2C12 2 5 8 5 14C5 17.866 8.134 21 12 21C15.866 21 19 17.866 19 14C19 8 12 2 12 2Z"
+          fill="rgba(12,15,10,0.6)" />
+        <path d="M12 7C12 7 8 11 8 15C8 17.209 9.791 19 12 19C14.209 19 16 17.209 16 15C16 11 12 7 12 7Z"
+          fill="rgba(12,15,10,0.9)" />
+        <line x1="12" y1="19" x2="12" y2="23" stroke="rgba(12,15,10,0.8)" stroke-width="2" stroke-linecap="round" />
+        </svg>
+      </div>
+      <span class="nav-name"><a href="index.html" class="nav-active">AGRO WARRIORS</a></span>
+    </div>
+    <div class="nav-links">
+      <a href="index.html" class="nav-active">Home</a>
+      <a href="#about">About</a>
+      <a href="#project">Project</a>
+      <a href="timeline.html">Timeline</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="team.html">Team</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="#sponsors">Sponsors</a>
+      <a href="#contact" class="btn btn-primary">Contact Us</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" class="mm-link">Home</a>
+    <a href="#about" class="mm-link">About</a>
+    <a href="#project" class="mm-link">Project</a>
+    <a href="timeline.html" class="mm-link">Timeline</a>
+    <a href="gallery.html" class="mm-link">Gallery</a>
+    <a href="team.html" class="mm-link">Team</a>
+    <a href="achievements.html" class="mm-link">Achievements</a>
+    <a href="#sponsors" class="mm-link">Sponsors</a>
+    <a href="#contact" class="mm-link">Contact</a>
+  </div>
+
+  <!-- ═══════════ HERO ═══════════ -->
+  <section id="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-inner">
+      <div class="hero-left">
+        <div class="hero-tag"><span class="dot"></span>Est. 2025 · KBTCOE Nashik</div>
+        <h1 class="hero-h1">
+          AGRO<br />
+          <span class="line2">WARRIORS</span>
+        </h1>
+        <p class="hero-desc">Pioneering sustainable agriculture through advanced robotics, precision mechanization, and
+          smart IoT farm ecosystems. From field challenges to innovative prototypes — engineering resilient farming
+          futures today.</p>
+        <div class="hero-actions">
+          <a href="#project" class="btn btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+            Our Project
+          </a>
+          <a href="team.html" class="btn btn-outline">Meet the Team</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="hstat-num">2</div>
+            <div class="hstat-label">Years <br>of <br> Innovation</div>
+          </div>
+          <div>
+            <div class="hstat-num">20+</div>
+            <div class="hstat-label">Members</div>
+          </div>
+          <div>
+            <div class="hstat-num">3</div>
+            <div class="hstat-label">Prototypes <br>Built</div>
+          </div>
+          <div>
+            <div class="hstat-num">2</div>
+            <div class="hstat-label">COMPETITION <br>ENTRY</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="robot-card">
+          <div class="robot-card-img">
+            <!-- SVG Transplanter Illustration -->
+            <svg class="robot-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+              <!-- Main Machine Body -->
+              <rect x="50" y="90" width="100" height="40" rx="6" fill="#1a2e16" stroke="#2ec05a" stroke-width="1.5" />
+
+              <!-- Seedling Tray -->
+              <rect x="65" y="60" width="70" height="25" rx="5" fill="#142010" stroke="#2ec05a" stroke-width="1.5" />
+
+              <!-- Saplings -->
+              <circle cx="75" cy="65" r="4" fill="#2ec05a" opacity="0.9" />
+              <circle cx="95" cy="65" r="4" fill="#2ec05a" opacity="0.9" />
+              <circle cx="115" cy="65" r="4" fill="#2ec05a" opacity="0.9" />
+              <circle cx="135" cy="65" r="4" fill="#2ec05a" opacity="0.9" />
+
+              <!-- PTO Connection -->
+              <rect x="35" y="100" width="15" height="20" rx="4" fill="#0c0f0a" stroke="#2ec05a" stroke-width="1.5" />
+
+              <!-- Transplanting Arms -->
+              <rect x="65" y="120" width="10" height="20" rx="3" fill="#142010" stroke="#2ec05a" />
+              <rect x="125" y="120" width="10" height="20" rx="3" fill="#142010" stroke="#2ec05a" />
+
+              <!-- Furrow Openers -->
+              <path d="M65 140 L60 155 L70 155 Z" fill="#0c0f0a" stroke="#2ec05a" />
+              <path d="M135 140 L130 155 L140 155 Z" fill="#0c0f0a" stroke="#2ec05a" />
+
+              <!-- Wheels -->
+              <circle cx="75" cy="160" r="14" fill="#0c0f0a" stroke="#2ec05a" stroke-width="1.5" />
+              <circle cx="125" cy="160" r="14" fill="#0c0f0a" stroke="#2ec05a" stroke-width="1.5" />
+              <circle cx="75" cy="160" r="5" fill="#2ec05a" opacity="0.4" />
+              <circle cx="125" cy="160" r="5" fill="#2ec05a" opacity="0.4" />
+
+              <!-- Control Panel -->
+              <rect x="95" y="80" width="10" height="10" rx="2" fill="#2ec05a" />
+              <circle cx="100" cy="85" r="2" fill="#0c0f0a" />
+
+              <!-- Soil Line -->
+              <path d="M40 165 Q100 175 160 165" stroke="#1a5c30" stroke-width="3" fill="none" />
+
+              <!-- Small Leaf Details -->
+              <path d="M55 150 Q45 140 55 132 Q55 142 65 145Z" fill="#1a5c30" opacity="0.7" />
+              <path d="M145 150 Q155 140 145 132 Q145 142 135 145Z" fill="#1a5c30" opacity="0.7" />
+
+            </svg>
+          </div>
+
+          <div class="robot-card-body">
+            <div>
+              <div class="robot-name">TRANSPLANTER</div>
+              <div class="robot-ver">Automated Vegetable Transplanter · 2026 Edition</div>
+            </div>
+            <div class="robot-status"><span class="dot"></span>Active</div>
+          </div>
+
+          <div class="robot-specs">
+            <div class="spec-item">
+              <div class="spec-val">PTO</div>
+              <div class="spec-key"></div>
+            </div>
+            <div class="spec-item">
+              <div class="spec-val">Field-Ready</div>
+              <div class="spec-key"></div>
+            </div>
+            <div class="spec-item">
+              <div class="spec-val">Multi-Crop</div>
+              <div class="spec-key"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+  </section>
+
+  <!-- ═══════════ TICKER ═══════════ -->
+  <div class="ticker-wrap">
+    <div class="ticker-track">
+      <span class="ticker-item"><span class="star">★</span> Automated Sapling Pickup</span>
+      <span class="ticker-item"><span class="star">★</span> Sensor-Based Detection</span>
+      <span class="ticker-item"><span class="star">★</span> Precision Transplanting</span>
+      <span class="ticker-item"><span class="star">★</span> Variable Speed Control</span>
+      <span class="ticker-item"><span class="star">★</span> Multi-Crop Compatibility</span>
+      <span class="ticker-item"><span class="star">★</span> Conveyor Feeding System</span>
+      <span class="ticker-item"><span class="star">★</span> Tractor PTO Integration</span>
+      <span class="ticker-item"><span class="star">★</span> Soil Furrow Opening</span>
+      <!-- Duplicate for seamless loop -->
+      <span class="ticker-item"><span class="star">★</span> Automated Sapling Pickup</span>
+      <span class="ticker-item"><span class="star">★</span> Sensor-Based Detection</span>
+      <span class="ticker-item"><span class="star">★</span> Precision Transplanting</span>
+      <span class="ticker-item"><span class="star">★</span> Variable Speed Control</span>
+      <span class="ticker-item"><span class="star">★</span> Multi-Crop Compatibility</span>
+      <span class="ticker-item"><span class="star">★</span> Conveyor Feeding System</span>
+      <span class="ticker-item"><span class="star">★</span> Tractor PTO Integration</span>
+      <span class="ticker-item"><span class="star">★</span> Soil Furrow Opening</span>
+    </div>
+  </div>
+
+  <!-- ═══════════ ABOUT ═══════════ -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img-wrap">
+          <div class="about-img">
+            <img src="photos/Screenshot 2026-02-19 103851.png" alt="KBTCOE Nashik Logo" width="400" height="400"
+              style="object-fit: contain;">
+          </div>
+          <style>
+            .about-img img {
+              max-width: 100%;
+              height: auto;
+              filter: drop-shadow(0 0 15px rgba(46, 192, 90, 0.4));
+            }
+          </style>
+
+          <!-- Farm field rows -->
+          <rect x="0" y="120" width="280" height="80" fill="#0e1c0a" />
+          <path d="M0 120 Q70 108 140 120 Q210 132 280 120 L280 200 L0 200Z" fill="#0f1e0b" />
+          <!-- Crop rows -->
+          <line x1="30" y1="140" x2="30" y2="170" stroke="#2ec05a" stroke-width="2" stroke-linecap="round" />
+          <line x1="60" y1="135" x2="60" y2="168" stroke="#2ec05a" stroke-width="2" stroke-linecap="round" />
+          <line x1="90" y1="138" x2="90" y2="172" stroke="#2ec05a" stroke-width="2" stroke-linecap="round" />
+          <line x1="120" y1="133" x2="120" y2="165" stroke="#2ec05a" stroke-width="2" stroke-linecap="round" />
+          <line x1="150" y1="136" x2="150" y2="170" stroke="#2ec05a" stroke-width="2" stroke-linecap="round" />
+          <line x1="180" y1="134" x2="180" y2="168" stroke="#2ec05a" stroke-width="2" stroke-linecap="round" />
+          <line x1="210" y1="138" x2="210" y2="172" stroke="#2ec05a" stroke-width="2" stroke-linecap="round" />
+          <line x1="240" y1="135" x2="240" y2="169" stroke="#2ec05a" stroke-width="2" stroke-linecap="round" />
+          <!-- Leaf shapes -->
+          <path d="M28 140 Q22 128 30 120 Q32 130 38 135Z" fill="#1a5c30" />
+          <path d="M32 140 Q38 128 30 120 Q28 130 22 135Z" fill="#1a7a38" />
+          <path d="M58 135 Q52 123 60 115 Q62 125 68 130Z" fill="#1a5c30" />
+          <path d="M62 135 Q68 123 60 115 Q58 125 52 130Z" fill="#1a7a38" />
+          <!-- Sky gradient -->
+          <rect x="0" y="0" width="280" height="120" fill="url(#skyGrad)" />
+          <defs>
+            <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="120" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#060d04" />
+              <stop offset="100%" stop-color="#0e1c0a" />
+            </linearGradient>
+          </defs>
+          <!-- Stars -->
+          <circle cx="40" cy="20" r="1.5" fill="#2ec05a" opacity="0.6" />
+          <circle cx="100" cy="40" r="1" fill="#2ec05a" opacity="0.4" />
+          <circle cx="160" cy="15" r="1.5" fill="#2ec05a" opacity="0.5" />
+          <circle cx="220" cy="35" r="1" fill="#2ec05a" opacity="0.4" />
+          <circle cx="250" cy="10" r="1.5" fill="#2ec05a" opacity="0.6" />
+          <!-- Moon -->
+          <circle cx="220" cy="30" r="20" fill="#1a2a16" />
+          <circle cx="228" cy="26" r="18" fill="#060d04" />
+          <!-- Robot silhouette on field -->
+          <rect x="118" y="96" width="44" height="30" rx="5" fill="#2ec05a" opacity="0.15" stroke="#2ec05a"
+            stroke-width="1" />
+          <rect x="126" y="84" width="28" height="16" rx="4" fill="#2ec05a" opacity="0.1" stroke="#2ec05a"
+            stroke-width="1" />
+          <circle cx="134" cy="91" r="3" fill="#2ec05a" opacity="0.6" />
+          <circle cx="146" cy="91" r="3" fill="#2ec05a" opacity="0.6" />
+          </svg>
+        </div>
+        <div class="about-badge">2+<span>Years</span></div>
+      </div>
+      <div class="about-text">
+        <div class="section-eyebrow">Who We Are</div>
+        <h2 class="section-title">ENGINEERING THE FUTURE OF<span class="accent"> TRANSPLANTING</span></h2>
+        <p>Agro Warriors is a student-led SAEINDIA TIFAN 2026 team from K.B.T. College of Engineering, Nashik dedicated
+          to designing and building an Automated Multi-Vegetable Transplanter that transforms traditional farming into a
+          precision-driven process.</p>
+        <p>Our system is engineered to handle 104-cavity seedling trays, detect saplings using integrated sensors, and
+          ensure accurate placement through precision planting mechanisms powered by tractor PTO integration.</p>
+        <p>Built for crops like chili, brinjal, and tomato, the machine integrates conveyor feeding, variable speed
+          control, soil furrow opening, and plant push systems — delivering consistency, efficiency, and reduced manual
+          effort in real farm conditions.</p>
+        <div class="about-pills">
+          <span class="pill">🚜 Precision Transplanting</span>
+          <span class="pill">🔍 Sensor-Based Detection</span>
+          <span class="pill">⚙ Variable Speed Control </span>
+          <span class="pill">🔄 Conveyor Feeding System</span>
+          <span class="pill">📡 IoT</span>
+          <span class="pill">🔗 PTO Integration</span>
+        </div>
+        <a href="#project" class="btn btn-primary">Explore Our Project</a>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ PROJECT ═══════════ -->
+  <section id="project">
+    <div class="container">
+      <div class="section-eyebrow">Our Build</div>
+      <h2 class="section-title">TRANSPLANTER <span class="accent">2.0</span></h2>
+      <p style="color:var(--gray);max-width:560px;margin-bottom:3rem;font-size:0.975rem;line-height:1.75">An advanced,
+        tractor-mounted automated transplanter engineered for precision planting in Indian vegetable farms. Designed for
+        SAEINDIA TIFAN 2026, the system integrates 104-cavity tray handling, intelligent sapling detection, PTO-driven
+        actuation, and synchronized planting mechanisms into a single field-ready prototype.</p>
+
+      <div class="project-hero">
+        <div class="project-banner">
+          <div class="project-title-wrap">
+            <div class="section-eyebrow" style="justify-content:center">Flagship Project · 2026</div>
+            <h2>
+              <a href="https://saeindia.org/tifan-2026/" target="_blank">
+                SAEINDIA TIFAN 2026
+              </a>
+            </h2>
+
+            <p class="project-subtitle">Automated Multi-Vegetable Transplanter</p>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="proj-feature">
+            <div class="proj-icon">🌾</div>
+            <h3>Intelligent Tray Handling</h3>
+            <p>Automated pickup mechanism designed for 104-cavity seedling trays. Ensures consistent sapling extraction
+              and smooth conveyor-based feeding for uninterrupted transplanting.</p>
+          </div>
+          <div class="proj-feature">
+            <div class="proj-icon">🌿</div>
+            <h3>Precision Planting System</h3>
+            <p>Sensor-based sapling detection combined with synchronized furrow opening and plant push mechanism.
+              Delivers uniform depth, spacing, and alignment for crops like chili, brinjal, and tomato.</p>
+          </div>
+          <div class="proj-feature">
+            <div class="proj-icon">⚙</div>
+            <h3>PTO-Powered Drive & Speed Control</h3>
+            <p>Tractor PTO integration powers the entire transplanting mechanism. Variable speed control enables
+              adaptive planting based on field conditions and soil type.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="specs-grid">
+        <div class="spec-card">
+          <div class="num">104</div>
+          <div class="label">Cavity Count</div>
+        </div>
+        <div class="spec-card">
+          <div class="num">PTO</div>
+          <div class="label">POWER SOURCE</div>
+        </div>
+        <div class="spec-card">
+          <div class="num">2–4 ROW</div>
+          <div class="label">Planting Rows</div>
+        </div>
+        <div class="spec-card">
+          <div class="num">VARIABLE</div>
+          <div class="label">SPEED CONTROL</div>
+        </div>
+        <div class="spec-card">
+          <div class="num">SENSOR-BASED</div>
+          <div class="label">SAPLING DETECTION</div>
+        </div>
+        <div class="spec-card">
+          <div class="num">ADJUSTABLE</div>
+          <div class="label">PLANTING DEPTH</div>
+        </div>
+        <div class="spec-card">
+          <div class="num">CHILI · BRINJAL · TOMATO</div>
+          <div class="label">CROP COMPATIBILITY</div>
+        </div>
+        <div class="spec-card">
+          <div class="num">FIELD-TESTED</div>
+          <div class="label">PROTOTYPE</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SPONSORS ═══════════ -->
+  <section id="sponsors">
+    <div class="container">
+      <div class="section-eyebrow">Partners & Support</div>
+      <h2 class="section-title">Our <span class="accent">Sponsors</span></h2>
+      <p style="color:var(--gray);max-width:500px;margin-bottom:3rem;font-size:0.95rem;line-height:1.7">We are grateful
+        to our sponsors and partners whose support enables us to build, iterate, and scale our agricultural technology
+        solutions.</p>
+      <div class="sponsor-tiers">
+        <div>
+          <div class="tier-label gold-tier">🏅 Title Sponsors</div>
+          <div class="sponsors-row">
+            <div class="sponsor-card big gold-sponsor">
+              <div class="sponsor-name">MAHINDRA AGRI</div>
+            </div>
+            <div class="sponsor-card big gold-sponsor">
+              <div class="sponsor-name">ISRO VEDAS</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="tier-label silver-tier">🥈 Silver Partners</div>
+          <div class="sponsors-row">
+            <div class="sponsor-card">
+              <div class="sponsor-name">BOSCH INDIA</div>
+            </div>
+            <div class="sponsor-card">
+              <div class="sponsor-name">NASSCOM</div>
+            </div>
+            <div class="sponsor-card">
+              <div class="sponsor-name">STATE AGRI BOARD</div>
+            </div>
+            <div class="sponsor-card">
+              <div class="sponsor-name">KBTCOE NASHIK</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="tier-label bronze-tier">🥉 Community Partners</div>
+          <div class="sponsors-row">
+            <div class="sponsor-card">
+              <div class="sponsor-name">DEHAAT</div>
+            </div>
+            <div class="sponsor-card">
+              <div class="sponsor-name">WAYCOOL</div>
+            </div>
+            <div class="sponsor-card">
+              <div class="sponsor-name">NINJACART</div>
+            </div>
+            <div class="sponsor-card">
+              <div class="sponsor-name">JIO AGRISHOTS</div>
+            </div>
+            <div class="sponsor-card">
+              <div class="sponsor-name">IEEE PUNE</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sponsor-cta">
+        <div>
+          <h3>Become a <span style="color:var(--green)">Sponsor</span></h3>
+          <p>Partner with Agro Warriors and be part of the next generation of precision agriculture technology. Your
+            support helps us reach more farmers.</p>
+        </div>
+        <a href="#contact" class="btn btn-primary">Sponsor Us →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ CONTACT ═══════════ -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-eyebrow">Get In Touch</div>
+      <h2 class="section-title">Contact <span class="accent">Us</span></h2>
+      <div class="contact-layout">
+        <div>
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="ci-icon">📍</div>
+              <div>
+                <div class="ci-label">Address</div>
+                <div class="ci-value"><a href="https://share.google/PmseQL5CCwdGn6ZnP" target="_blank">KBTCOE Nashik,
+                    Gangapur Road, NAshik — 422005, Maharashtra, India</a></div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="ci-icon">📧</div>
+              <div>
+                <div class="ci-label">Email</div>
+                <div class="ci-value">
+                  <h4>tifan26teamagrowarriors@gmail.com</h4>
+                </div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="ci-icon">📱</div>
+              <div>
+                <div class="ci-label">Phone</div>
+                <div class="ci-value">+91 94035 18512 <br> +91 94045 53182</div>
+              </div>
+            </div>
+          </div>
+          <!-- SOcial Media Links -->
+          <div style="margin-top:1.5rem">
+            <p
+              style="font-size:0.8rem;color:var(--gray);margin-bottom:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em">
+              Follow Us</p>
+            <div class="social-links">
+              <a class="social-link" href="https://www.linkedin.com/company/team-agro-warriors/" target="_blank">
+                <!-- LinkedIn Outline SVG -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <rect x="2" y="2" width="20" height="20" rx="4" stroke="currentColor" stroke-width="2" />
+                  <path d="M7 10V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                  <circle cx="7" cy="7" r="1.2" fill="currentColor" />
+                  <path d="M11 17V13.5C11 12.1 12 11 13.4 11C14.8 11 15.5 11.9 15.5 13.5V17" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" />
+                </svg>
+              </a>
+
+              <a class="social-link" href="https://www.instagram.com/team_agrowarriors?igsh=MTV4YWNzeXd5bm85OA=="
+                target="_blank">
+                <!-- Instagram SVG -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2" />
+                  <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2" />
+                  <circle cx="17" cy="7" r="1.5" fill="currentColor" />
+                </svg>
+              </a>
+            </div>
+
+          </div>
+          <div class="map-placeholder">
+            <div class="map-icon">🗺️</div>
+            <div><a href="https://share.google/PmseQL5CCwdGn6ZnP" target="_blank">KBTCOE Nashik, Maharashtra</a>
+            </div>
+            <div style="font-size:0.72rem;color:var(--gray)">Gangapur Road, Nashik 422005</div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h3 style="font-family:'Bebas Neue',sans-serif;font-size:1.5rem;letter-spacing:0.04em;margin-bottom:1.5rem">
+            Send a Message</h3>
+          <div class="form-row">
+            <div class="form-group"><label>First Name</label><input type="text" placeholder="Rohan" /></div>
+            <div class="form-group"><label>Last Name</label><input type="text" placeholder="Desai" /></div>
+          </div>
+          <div class="form-group"><label>Email Address</label><input type="email" placeholder="rohan@example.com" />
+          </div>
+          <div class="form-group">
+            <label>Reason for Contact</label>
+            <select>
+              <option value="" disabled selected>Select a reason...</option>
+              <option>Sponsorship Inquiry</option>
+              <option>Collaboration / Partnership</option>
+
+              <option>Join the Team</option>
+              <option>General Inquiry</option>
+            </select>
+          </div>
+          <div class="form-group"><label>Message</label><textarea
+              placeholder="Tell us about your inquiry..."></textarea></div>
+          <button class="btn btn-primary form-submit" onclick="handleSubmit(this)">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M22 2L11 13" />
+              <path d="M22 2L15 22 11 13 2 9l20-7z" />
+            </svg>
+            Send Message
+          </button>
+          <div class="form-note">We typically respond within 24–48 hours.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <div class="divider"></div>
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-brand" style="margin-bottom:1rem">
+            <div class="nav-logo">
+              <img src="photos/team-logo(no back).png" alt="Agro Warriors Logo">
+              <path d="M12 2C12 2 5 8 5 14C5 17.866 8.134 21 12 21C15.866 21 19 17.866 19 14C19 8 12 2 12 2Z"
+                fill="rgba(12,15,10,0.6)" />
+              <path d="M12 7C12 7 8 11 8 15C8 17.209 9.791 19 12 19C14.209 19 16 17.209 16 15C16 11 12 7 12 7Z"
+                fill="rgba(12,15,10,0.9)" />
+              <line x1="12" y1="19" x2="12" y2="23" stroke="rgba(12,15,10,0.8)" stroke-width="2"
+                stroke-linecap="round" />
+              </svg>
+            </div>
+            <span class="nav-name">AGRO WARRIORS</span>
+          </div>
+          <p>A student-led agri-tech team from KBTCOE Nashik, building intelligent solutions for the farmers of
+            tomorrow.</p>
+          <div class="social-links" style="margin-top:1rem">
+            <a class="social-link" href="https://www.linkedin.com/company/team-agro-warriors/" target="_blank">
+              <!-- LinkedIn Outline SVG -->
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="2" width="20" height="20" rx="4" stroke="currentColor" stroke-width="2" />
+                <path d="M7 10V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                <circle cx="7" cy="7" r="1.2" fill="currentColor" />
+                <path d="M11 17V13.5C11 12.1 12 11 13.4 11C14.8 11 15.5 11.9 15.5 13.5V17" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </a>
+
+            <a class="social-link" href="https://www.instagram.com/team_agrowarriors?igsh=MTV4YWNzeXd5bm85OA=="
+              target="_blank">
+              <!-- Instagram SVG -->
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2" />
+                <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2" />
+                <circle cx="17" cy="7" r="1.5" fill="currentColor" />
+              </svg>
+            </a>
+
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <div class="footer-links">
+            <a href="#about">About Us</a>
+            <a href="#project">Our Project</a>
+            <a href="timeline.html">Year-Wise Progress</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="team.html">Team</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Recognition</h4>
+          <div class="footer-links">
+            <a href="achievements.html">Achievements</a>
+            <a href="#sponsors">Our Sponsors</a>
+
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <div class="footer-links">
+            <a href="#contact">Contact Us</a>
+            <a href="#contact">Join the Team</a>
+            <a href="#contact">Sponsor Us</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Agro Warriors, KBTCOE Nashik. All rights reserved.</span>
+        <span>Agriculture × Technology · Est. 2025</span>
+      </div>
+    </div>
+  </footer>
+  <button id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to Top">&#8593;</button>
+
+  <script src="script.js"></script>
+
+
+
+
+  <canvas id="particle-canvas"></canvas>
+
+  <style>
+    #particle-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: #08140c;
+      /* your dark green */
+    }
+  </style>
+
+  <script>
+    const canvas = document.getElementById("particle-canvas");
+    const ctx = canvas.getContext("2d");
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    let mouse = { x: canvas.width / 2, y: canvas.height / 2 };
+
+    window.addEventListener("mousemove", (e) => {
+      mouse.x = e.clientX;
+      mouse.y = e.clientY;
+    });
+
+    window.addEventListener("resize", () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    });
+
+    class Particle {
+      constructor() {
+        this.baseX = Math.random() * canvas.width;
+        this.baseY = Math.random() * canvas.height;
+        this.x = this.baseX;
+        this.y = this.baseY;
+        this.size = Math.random() * 2 + 1;
+        this.depth = Math.random() * 0.05 + 0.02; // parallax strength
+      }
+
+      update() {
+        // Parallax shift based on mouse position
+        let dx = (mouse.x - canvas.width / 2) * this.depth;
+        let dy = (mouse.y - canvas.height / 2) * this.depth;
+
+        this.x = this.baseX + dx;
+        this.y = this.baseY + dy;
+      }
+
+      draw() {
+        ctx.fillStyle = "rgba(46,192,90,0.6)";
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+
+    let particles = [];
+
+    function init() {
+      particles = [];
+      for (let i = 0; i < 200; i++) {
+        particles.push(new Particle());
+      }
+    }
+
+    function animate() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      particles.forEach(p => {
+        p.update();
+        p.draw();
+      });
+
+      requestAnimationFrame(animate);
+    }
+
+    init();
+    animate();
+  </script>
+
+
+
+</body>
+
+</html>
