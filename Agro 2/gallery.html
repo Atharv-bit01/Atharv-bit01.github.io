@@ -35,7 +35,7 @@
       <a href="index.html">Home</a>
       <a href="index.html#about">About</a>
       <a href="index.html#project">Project</a>
-      <a href="timeline.html" class="">Timeline</a>
+      <!-- <a href="timeline.html" class="">Timeline</a> -->
       <a href="gallery.html" class="nav-active">Gallery</a>
       <a href="team.html" class="">Team</a>
       <a href="achievements.html" class="">Achievements</a>
@@ -52,7 +52,7 @@
     <a href="index.html" class="mm-link">Home</a>
     <a href="index.html#about" class="mm-link">About</a>
     <a href="index.html#project" class="mm-link">Project</a>
-    <a href="timeline.html" class="mm-link">Timeline</a>
+    <!-- <a href="timeline.html" class="mm-link">Timeline</a> -->
     <a href="gallery.html" class="mm-link">Gallery</a>
     <a href="team.html" class="mm-link">Team</a>
     <a href="achievements.html" class="mm-link">Achievements</a>
@@ -78,95 +78,177 @@
 
 
   <!-- MAIN CONTENT -->
-  <main style="background:var(--black)">
-    <div class="container" style="padding:60px 0 100px">
-      <!-- ═══════════ GALLERY ═══════════ -->
-      <section id="gallery">
-        <div class="container">
-          <div class="gallery-filter">
-            <button class="gf-btn active" data-filter="all">All</button>
-            <button class="gf-btn" data-filter="robot">Robot</button>
-            <button class="gf-btn" data-filter="event">Events</button>
-            <button class="gf-btn" data-filter="field">Field Work</button>
-            <button class="gf-btn" data-filter="award">Awards</button>
-          </div>
-          <div class="gallery-grid">
-            <div class="gallery-item tall" data-cat="robot">
-              <div class="gallery-img" style="background:linear-gradient(135deg,#0d1f0b,#182c14);height:416px">
-                <svg width="120" height="150" viewBox="0 0 120 150" fill="none">
-                  <rect x="25" y="50" width="70" height="60" rx="8" fill="none" stroke="#2ec05a" stroke-width="1.5" />
-                  <rect x="35" y="30" width="50" height="24" rx="6" fill="none" stroke="#2ec05a" stroke-width="1.5" />
-                  <circle cx="48" cy="41" r="6" fill="#2ec05a" opacity="0.6" />
-                  <circle cx="72" cy="41" r="6" fill="#2ec05a" opacity="0.6" />
-                  <line x1="60" y1="30" x2="60" y2="20" stroke="#2ec05a" stroke-width="1.5" stroke-linecap="round" />
-                  <circle cx="60" cy="17" r="3" fill="#2ec05a" opacity="0.8" />
-                  <rect x="0" y="55" width="25" height="10" rx="5" fill="none" stroke="#2ec05a" stroke-width="1.5" />
-                  <rect x="95" y="55" width="25" height="10" rx="5" fill="none" stroke="#2ec05a" stroke-width="1.5" />
-                  <circle cx="42" cy="120" r="12" fill="none" stroke="#2ec05a" stroke-width="1.5" />
-                  <circle cx="78" cy="120" r="12" fill="none" stroke="#2ec05a" stroke-width="1.5" />
-                </svg>
-              </div>
-              <div class="gallery-overlay">
-                <div class="gallery-caption">KISAN 2.0 — Full Build</div>
-              </div>
-              <div class="gallery-info">
-                <div class="gallery-title">KISAN 2.0 Robot</div>
-                <div class="gallery-cat">Robot</div>
-              </div>
-            </div>
-            <div class="gallery-item" data-cat="event">
-              <div class="gallery-img" style="background:linear-gradient(135deg,#1a0d2e,#2a1050)">🎤</div>
-              <div class="gallery-overlay">
-                <div class="gallery-caption">AgriTech India Summit 2024</div>
-              </div>
-              <div class="gallery-info">
-                <div class="gallery-title">AgriTech India Summit 2024</div>
-                <div class="gallery-cat">Event</div>
-              </div>
-            </div>
-            <div class="gallery-item" data-cat="award">
-              <div class="gallery-img" style="background:linear-gradient(135deg,#2a1a00,#4a2e00)">🏆</div>
-              <div class="gallery-overlay">
-                <div class="gallery-caption">SIH 2024 — National Winners</div>
-              </div>
-              <div class="gallery-info">
-                <div class="gallery-title">SIH 2024 National Win</div>
-                <div class="gallery-cat">Award</div>
-              </div>
-            </div>
-            <div class="gallery-item" data-cat="field">
-              <div class="gallery-img" style="background:linear-gradient(135deg,#0a1e08,#14340e)">🌾</div>
-              <div class="gallery-overlay">
-                <div class="gallery-caption">Pilot Farm Deployment — Pune</div>
-              </div>
-              <div class="gallery-info">
-                <div class="gallery-title">Pilot Farm Testing</div>
-                <div class="gallery-cat">Field Work</div>
-              </div>
-            </div>
-            <div class="gallery-item" data-cat="event">
-              <div class="gallery-img" style="background:linear-gradient(135deg,#0d1828,#162840)">🎓</div>
-              <div class="gallery-overlay">
-                <div class="gallery-caption">IEEE AgriRobotics Challenge</div>
-              </div>
-              <div class="gallery-info">
-                <div class="gallery-title">IEEE AgriRobotics</div>
-                <div class="gallery-cat">Event</div>
-              </div>
-            </div>
-            <div class="gallery-item" data-cat="robot">
-              <div class="gallery-img" style="background:linear-gradient(135deg,#0d1f0b,#0a1608)">📡</div>
-              <div class="gallery-overlay">
-                <div class="gallery-caption">IoT Sensor Array</div>
-              </div>
-              <div class="gallery-info">
-                <div class="gallery-title">IoT Sensor System</div>
-                <div class="gallery-cat">Robot</div>
-              </div>
-            </div>
-          </div>
+<main style="background:var(--black)">
+  <div class="container" style="padding:60px 0 100px">
+    <!-- ═══════════ GALLERY ═══════════ -->
+    <section id="gallery">
+      <div class="container">
+        <div class="gallery-filter">
+          <button class="gf-btn active" data-filter="all">All</button>
+          <button class="gf-btn" data-filter="robot">Model</button>
+          <button class="gf-btn" data-filter="event">Events</button>
+          <button class="gf-btn" data-filter="field">Field Work</button>
+          <button class="gf-btn" data-filter="award">Awards</button>
         </div>
-  </main>
+        <div class="gallery-grid">
+          <!-- Item 1: Yug-Krushi 1.0 Robot -->
+          <div class="gallery-item tall" data-cat="robot">
+            <div class="gallery-img">
+              <img src="photos/Techfest 2k25.JPG" alt="Yug-Krushi 1.0 Robot">
+            </div>
+            
+            <div class="gallery-info">
+              <div class="gallery-title">Yug-Krushi 1.0 Robot</div>
+              <div class="gallery-cat">Model</div>
+            </div>
+          </div>
+
+          <!-- Item 2: SAE INDIA Summit -->
+          <div class="gallery-item" data-cat="event">
+            <div class="gallery-img">
+              <img src="photos/Sae Tifan 2k25.jpeg" alt="SAE INDIA Summit 2025">
+            </div>
+           
+            <div class="gallery-info">
+              <div class="gallery-title">SAE INDIA Summit 2025</div>
+              <div class="gallery-cat">Event</div>
+            </div>
+          </div>
+
+          <!-- Item 3: IDEA Spark Competition -->
+          <div class="gallery-item" data-cat="award">
+            <div class="gallery-img">
+              <img src="photos/Idea spark competition .JPG" alt="IDEA Spark Competition Winners">
+            </div>
+            
+            <div class="gallery-info">
+              <div class="gallery-title">Idea Spark Competition</div>
+              <div class="gallery-cat">Award</div>
+            </div>
+          </div>
+
+          <!-- Item 4: SAE TIFAN Orientation -->
+          <div class="gallery-item" data-cat="field">
+            <div class="gallery-img">
+              <img src="photos/Sae Tifan Orentation.JPG" alt="TIFAN orientation">
+            </div>
+            
+            <div class="gallery-info">
+              <div class="gallery-title">TIFAN Orientation</div>
+              <div class="gallery-cat">Field Work</div>
+            </div>
+          </div>
+
+          <!-- Item 5: Ventura -->
+          <div class="gallery-item" data-cat="event">
+            <div class="gallery-img">
+              <img src="photos/Ventura.JPG" alt="Ventura">
+            </div>
+            
+            <div class="gallery-info">
+              <div class="gallery-title">Ventura</div>
+              <div class="gallery-cat">Event</div>
+            </div>
+          </div>
+
+          <!-- Item 6: IDEA Spark Competition -->
+          <div class="gallery-item" data-cat="robot">
+            <div class="gallery-img">
+              <img src="photos/Idea spark competition 2.JPG" alt="IDEA Spark Competition Winners">
+            </div>
+            
+            <div class="gallery-info">
+              <div class="gallery-title">IDEA Spark Competition</div>
+              <div class="gallery-cat">Model</div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-cat="event">
+            <div class="gallery-img">
+              <img src="photos/Ventura 2.jpeg" alt="Ventura">
+            </div>
+           
+            <div class="gallery-info">
+              <div class="gallery-title">Ventura</div>
+              <div class="gallery-cat">Event</div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-cat="event">
+            <div class="gallery-img">
+              <img src="photos/Ventura 3.jpeg " alt="Ventura">
+            </div>
+            
+            <div class="gallery-info">
+              <div class="gallery-title">Ventura</div>
+              <div class="gallery-cat">Event</div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<style>
+/* Gallery Image Styling */
+.gallery-img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 12px;
+}
+
+/* For tall items */
+.gallery-item.tall .gallery-img {
+  height: 416px;
+}
+
+.gallery-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect on images */
+.gallery-item:hover .gallery-img img {
+  transform: scale(1.05);
+}
+
+/* Ensure overlay works properly */
+.gallery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 12px;
+}
+
+.gallery-item:hover .gallery-overlay {
+  opacity: 1;
+}
+
+.gallery-caption {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 20px;
+}
+</style>
 
   <!-- FOOTER -->
   <div class="divider"></div>
@@ -216,7 +298,7 @@
             <a href="index.html">Home</a>
             <a href="index.html#about">About Us</a>
             <a href="index.html#project">Our Project</a>
-            <a href="timeline.html">Year-Wise Progress</a>
+            <!-- <a href="timeline.html">Year-Wise Progress</a> -->
             <a href="gallery.html">Gallery</a>
           </div>
         </div>
